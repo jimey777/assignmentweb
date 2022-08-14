@@ -9,6 +9,7 @@
 	position: relative;
 }
 .links{
+	background-color: black;
     color: red;
 	flex: 1;
 	text-align: right;
@@ -235,6 +236,11 @@ form fieldset{
 }
 .linksu ul li:hover::after {
       width: 100%;
+}
+.container{
+	display: grid;
+	margin: 1%;
+	grid-template-columns: 30% auto auto;
 }
 @media screen only(600px and 1000px)
 
